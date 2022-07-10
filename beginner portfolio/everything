@@ -1,0 +1,351 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js" integrity="sha512-jq8sZI0I9Og0nnZ+CfJRnUzNSDKxr/5Bvha5bn7AHzTnRyxUfpUArMzfH++mwE/hb2efOo1gCAgI+1RMzf8F7g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</head>
+
+<body >
+    <nav id="sidebar">
+        <div id="sidebardiv">
+            <ul id="cock">    
+                <li id="cockass"><i id="asd23"class="fa-solid fa-gear"></i>Simple</li>
+                <li id="cockass"><i id="asd23"class="fa-solid fa-gear"></i>Simple</li>
+                <li id="cockass"><i id="asd23"class="fa-solid fa-gear"></i>Simple</li>
+                <li id="cockass"><i id="asd23"class="fa-solid fa-gear"></i>Simple</li>
+                
+            </ul>
+            
+        </div>
+    </nav>
+    <header>
+        <ul id="header">
+            <li id="headerli" class="no"> <i class="fa-solid fa-moon"></i></li>
+            <li id="headerli">Home</li>
+            <li id="headerli">Contact</li>
+            <li id="headerli">About</li>
+        </ul>
+    </header>
+
+    <section id="daddy">
+        <h1 id="site">Hi i'm <a id="David">David</a></h1>
+        <h1 id="david"> <a id="David"> I</a> made this site</h1>
+        <h3>I make  stuff</h3>
+        <ul>
+            <li>
+                <div id="box">
+                    <a href="https://bg.linkedin.com/" target="_blank" class="link"><i id="asd" class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+    
+            </li>
+        <li id="div2">
+                <div id="box">
+                     
+                        <a href="https://www.reddit.com" target="_blank" class="link"><i id="asd" class="fa-brands fa-reddit"></i></a>
+                    
+                </div>
+            </li>
+            <li id="div2">
+                <div id="box">
+                    <a href="https://www.youtube.com" target="_blank" class="link"><i id="asd" class="fa-brands fa-youtube"></i></a>
+                </div>
+            </li>
+        </ul>
+        
+    </section>
+
+
+
+</body>
+<script src="three.js" defer></script>
+</html>
+
+
+css
+body{
+    background-color: #303030;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#david{
+    position: relative;
+margin-top: 0px;;
+font-size: 40px;
+margin-bottom: 5px;
+}
+#site{
+    position: relative;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+#daddy{
+    position: relative;
+    top: 500px;
+    left: 300px;
+    width: 400px;
+    color: grey;
+    text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+     1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000; 
+    z-index: 1;
+    
+}
+h3{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#David{
+    position: relative;
+    color: #c27453;
+    text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+     1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+   transition: font-size 0.051s;
+   transition-timing-function: linear;
+}
+#David:hover{
+font-size: 55px;
+}
+#box{
+    height: 20px;
+    width: 20px; 
+    background-color:  #c27453;
+    border-color: #c27453;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100%;
+    text-align: center;
+}
+#asd{
+    position: relative;
+    top: 2px;
+}
+.fa-brands{
+    color: black;
+}
+ul{
+    position: absolute;
+   list-style: none;
+   padding:0px ;
+   text-shadow: none;
+}
+li{
+    display: inline-block;
+    transition: font-size 0.051s;
+    
+}
+
+#box:hover{
+    width: 30px;
+    height: 30px;
+}
+#floatingbubbles {
+    width: 400px;
+    height: 400px;
+    
+}
+#daddyy{
+    width: 300px;
+    height: 400px   ;
+}
+span{
+    position: absolute;
+    border-radius: 50%;
+    
+    animation: ani 2s linear infinite;
+}
+span:hover{
+    outline:  black 5px solid;
+}
+@keyframes ani {
+    0%{
+        transform: scale(0) translateY(0) rotate(0deg);
+    opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1) translateY(-500%) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+#header{
+    font-size: 30px;
+    color: grey;
+    position: relative;
+    width: 99%;
+    text-align: right;
+    margin-top: 0px;
+}
+#headerli{
+    padding-right: 40px;
+    margin-top: 20px;
+}
+
+#sidebar{
+    position:absolute;
+    width: 20px;
+    height:994px;
+    background-color: rgb(31, 31, 31);
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    z-index: 1;
+    opacity: 1;
+    transition: 1s; 
+    overflow: hidden;
+    
+}
+#sidebar:hover {
+    border-radius: 10px;
+    width: 260px;
+    opacity: 0.54;
+    background-color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+#sidebardiv{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+hr{
+    visibility: hidden;
+}
+#asd23{
+color: grey;
+    z-index: 2;
+    padding-right: 10px;
+    
+}
+#cockass{
+    position: relative;
+    margin-bottom: 30px;
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+    
+}
+#cockass:hover{
+    border-color: #c27455;
+    border-width: 4px;
+    border-style: solid;
+    left: 10px;
+
+
+}
+#cock{
+    margin-left: 2px;
+    position: absolute;
+    display: inline-block;
+}
+
+JS
+let color=['grey', "#c27453"]
+
+
+
+
+function square (){
+    let section = document.querySelector("body");
+
+    let square = document.createElement('span')
+    
+    let size=Math.random()* 50;
+    
+    square.style.width=30+size+"px";
+    
+    square.style.height=30+size+"px";
+    
+    square.style.top=Math.random()*innerHeight+"px";
+    square.style.left=Math.random()*innerWidth+"px";
+    let bg= color[Math.floor(Math.random()*color.length)];
+    square.style.background=bg;
+    section.appendChild(square);
+
+
+    
+    setTimeout(() => {
+        square.remove();
+    }, 5000);
+    
+    
+}
+setInterval(square,100);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
